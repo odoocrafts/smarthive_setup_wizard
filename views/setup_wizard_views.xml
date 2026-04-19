@@ -121,10 +121,6 @@
                     <button string="Finish &amp; Apply" invisible="state != 'help'" name="action_finish" type="object" class="btn btn-primary smarthive-wizard-btn smarthive-wizard-btn-primary"/>
                     
                     <button string="Cancel Setup" invisible="state == 'done'" class="btn btn-link" special="cancel"/>
-                    
-                    <a href="https://odoocrafts.com/helpdesk/customer-care-1?contact_form=1" target="_blank" class="btn btn-link ms-auto text-decoration-none" role="button">
-                        <i class="fa fa-life-ring"/> Contact Support
-                    </a>
                 </footer>
             </form>
         </field>

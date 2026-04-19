@@ -12,6 +12,8 @@
     'assets': {
         'web.assets_backend': [
             'smarthive_setup_wizard/static/src/css/wizard_style.css',
+            'smarthive_setup_wizard/static/src/js/support_systray.js',
+            'smarthive_setup_wizard/static/src/xml/support_systray.xml',
         ],
     },
     'installable': True,

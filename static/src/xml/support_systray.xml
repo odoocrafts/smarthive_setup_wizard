@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="smarthive_setup_wizard.SupportSystray">
+        <div class="o_SupportSystray">
+            <a role="button" class="dropdown-toggle o-no-caret" style="display: flex; align-items: center; justify-content: center; height: 100%; padding: 0 10px;" href="https://odoocrafts.com/helpdesk/customer-care-1?contact_form=1" target="_blank" title="Contact Support">
+                <i class="fa fa-life-ring fa-lg" role="img" aria-label="Contact Support"/>
+            </a>
+        </div>
+    </t>
+</templates>
