@@ -9,7 +9,7 @@
                 
                 <!-- Welcome State -->
                 <div invisible="state != 'welcome'" class="smarthive-step-content text-center">
-                    <img src="/smarthive_setup_wizard/static/src/img/slide1.png" alt="SmartHive &amp; OdooCrafts" style="max-width: 80%; height: auto; margin-bottom: 20px; border-radius: 8px;"/>
+                    <img src="/smarthive_setup_wizard/static/src/img/slide1.png" alt="SmartHive &amp; OdooCrafts" style="max-width: 40%; height: auto; margin-bottom: 20px; border-radius: 8px;"/>
                     <div class="smarthive-setup-header">
                         <h1>Welcome to Smarthive! 🐝</h1>
                         <p>Thank you for choosing us. Let's get your institute up and running.</p>
@@ -90,12 +90,12 @@
 
                 <!-- Intro Books State -->
                 <div invisible="state != 'intro_books'" class="smarthive-step-content text-center">
-                    <img src="/smarthive_setup_wizard/static/src/img/books_intro.png" alt="Books App Intro" style="max-width: 100%; height: auto; border-radius: 8px;"/>
+                    <img src="/smarthive_setup_wizard/static/src/img/books_intro.png" alt="Books App Intro" style="max-width: 50%; height: auto; border-radius: 8px;"/>
                 </div>
 
                 <!-- Intro Student State -->
                 <div invisible="state != 'intro_student'" class="smarthive-step-content text-center">
-                    <img src="/smarthive_setup_wizard/static/src/img/students_intro.png" alt="Student Management Intro" style="max-width: 100%; height: auto; border-radius: 8px;"/>
+                    <img src="/smarthive_setup_wizard/static/src/img/students_intro.png" alt="Student Management Intro" style="max-width: 50%; height: auto; border-radius: 8px;"/>
                 </div>
 
                 <!-- Help State -->
