@@ -147,6 +147,11 @@ class SmarthiveSetupWizard(models.TransientModel):
                 'type': 'service',
             })
 
+        # Hide the setup menu item since it is completely finished
+        setup_menu = self.env.ref('smarthive_setup_wizard.menu_smarthive_setup_root', raise_if_not_found=False)
+        if setup_menu:
+            setup_menu.active = False
+
         return {'type': 'ir.actions.act_window_close'}
 
 

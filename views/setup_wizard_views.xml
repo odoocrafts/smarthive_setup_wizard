@@ -147,5 +147,5 @@
               name="Smarthive Setup"
               web_icon="crm,static/description/icon.png"
               action="action_smarthive_setup_wizard"
-              sequence="1"/>
+              sequence="-5"/>
 </odoo>
