@@ -90,12 +90,12 @@
 
                 <!-- Intro Books State -->
                 <div invisible="state != 'intro_books'" class="smarthive-step-content text-center">
-                    <img src="/smarthive_setup_wizard/static/src/img/books_intro.png" alt="Books App Intro" style="max-width: 50%; height: auto; border-radius: 8px;"/>
+                    <img src="/smarthive_setup_wizard/static/src/img/books_intro.png" alt="Books App Intro" style="max-width: 80%; height: auto; border-radius: 8px;"/>
                 </div>
 
                 <!-- Intro Student State -->
                 <div invisible="state != 'intro_student'" class="smarthive-step-content text-center">
-                    <img src="/smarthive_setup_wizard/static/src/img/students_intro.png" alt="Student Management Intro" style="max-width: 50%; height: auto; border-radius: 8px;"/>
+                    <img src="/smarthive_setup_wizard/static/src/img/students_intro.png" alt="Student Management Intro" style="max-width: 80%; height: auto; border-radius: 8px;"/>
                 </div>
 
                 <!-- Help State -->
