@@ -51,6 +51,9 @@
                     <group>
                         <field name="sales_team_name"/>
                     </group>
+                    <p class="text-muted mt-3 text-center" style="font-size: 0.9em;">
+                        <i>Hint: More sales teams can be configured later in CRM &gt; Configuration &gt; Sales Teams</i>
+                    </p>
                 </div>
 
                 <!-- Salesperson State -->
@@ -136,7 +139,7 @@
 
     <!-- Setup Action -->
     <record id="action_smarthive_setup_wizard" model="ir.actions.act_window">
-        <field name="name">Smarthive Setup</field>
+        <field name="name">Welcome to SmartHive</field>
         <field name="res_model">smarthive.setup.wizard</field>
         <field name="view_mode">form</field>
         <field name="target">new</field>

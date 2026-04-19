@@ -62,6 +62,7 @@ class SmarthiveSetupWizard(models.TransientModel):
             self.state = states[current_index + 1]
             
         return {
+            'name': 'Welcome to SmartHive',
             'type': 'ir.actions.act_window',
             'res_model': 'smarthive.setup.wizard',
             'res_id': self.id,
@@ -77,6 +78,7 @@ class SmarthiveSetupWizard(models.TransientModel):
             self.state = states[current_index - 1]
             
         return {
+            'name': 'Welcome to SmartHive',
             'type': 'ir.actions.act_window',
             'res_model': 'smarthive.setup.wizard',
             'res_id': self.id,
