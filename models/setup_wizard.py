@@ -152,7 +152,10 @@ class SmarthiveSetupWizard(models.TransientModel):
         if setup_menu:
             setup_menu.active = False
 
-        return {'type': 'ir.actions.act_window_close'}
+        return {
+            'type': 'ir.actions.client',
+            'tag': 'reload',
+        }
 
 
 class SmarthiveSetupSalespersonLine(models.TransientModel):
