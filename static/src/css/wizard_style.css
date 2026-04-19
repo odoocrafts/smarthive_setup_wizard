@@ -1,0 +1,76 @@
+/* Smarthive Wizard Styling */
+.smarthive-setup-container {
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    border-radius: 12px;
+    padding: 30px;
+    min-height: 400px;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    color: #333;
+}
+
+.smarthive-setup-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.smarthive-setup-header h1 {
+    font-size: 28px;
+    color: #2F3C7E;
+    font-weight: 700;
+}
+
+.smarthive-setup-header p {
+    font-size: 16px;
+    color: #555;
+}
+
+.smarthive-step-content {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.smarthive-marketing-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #eef2f3;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.smarthive-marketing-icon {
+    font-size: 40px;
+}
+
+.smarthive-marketing-text h2 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+    font-size: 22px;
+}
+
+.smarthive-marketing-text p {
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.smarthive-wizard-btn {
+    border-radius: 20px !important;
+    padding: 8px 20px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+}
+
+.smarthive-wizard-btn-primary {
+    background: linear-gradient(90deg, #2F3C7E 0%, #3B4B96 100%) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.smarthive-wizard-btn-primary:hover {
+    box-shadow: 0 4px 10px rgba(47, 60, 126, 0.3) !important;
+    transform: translateY(-1px);
+}
