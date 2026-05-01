@@ -138,9 +138,11 @@
     </record>
 
     <!-- Root Menu Item -->
-    <menuitem id="menu_smarthive_setup_root"
-              name="Smarthive Setup"
-              web_icon="crm,static/description/icon.png"
-              action="action_smarthive_setup_wizard"
-              sequence="-5"/>
+    <data noupdate="1">
+        <menuitem id="menu_smarthive_setup_root"
+                  name="Smarthive Setup"
+                  web_icon="crm,static/description/icon.png"
+                  action="action_smarthive_setup_wizard"
+                  sequence="-5"/>
+    </data>
 </odoo>
