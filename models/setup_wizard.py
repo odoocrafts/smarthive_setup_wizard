@@ -153,6 +153,14 @@ class SmarthiveSetupWizard(models.TransientModel):
         setup_menu = self.env.ref('smarthive_setup_wizard.menu_smarthive_setup_root', raise_if_not_found=False)
         if setup_menu:
             setup_menu.active = False
+            
+            # Force noupdate on the XML record so future module upgrades don't unhide it
+            menu_data = self.env['ir.model.data'].sudo().search([
+                ('module', '=', 'smarthive_setup_wizard'),
+                ('name', '=', 'menu_smarthive_setup_root')
+            ], limit=1)
+            if menu_data:
+                menu_data.noupdate = True
 
         return {
             'type': 'ir.actions.client',
